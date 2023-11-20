@@ -1,0 +1,11 @@
+/* 
+q4.sql: Show how much each pet waited (in days) from arrival to adoption(example: if a dog
+arrived in 2003 and adopted in 2005 it waited 2 years, a dog arrived in 2007 and adopted in
+2010 waited 3 years) ordered from highest waiting time to lowest.
+*/
+
+SELECT pet.id, DATEDIFF(adoption.adoption_date, pet.arrival_date) AS waiting_time_in_days
+FROM adoption
+JOIN pet ON adoption.pet_id = pet.id
+ORDER BY waiting_time_in_days DESC;
+

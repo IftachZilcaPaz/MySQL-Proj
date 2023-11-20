@@ -1,0 +1,12 @@
+-- q9.sql : find all owners with no adoptions.
+
+
+select o.*
+FROM owner as O LEFT JOIN adoption as A
+	ON A.owner_id = O.id
+WHERE a.owner_id IS NULL;
+
+    
+    
+    
+    

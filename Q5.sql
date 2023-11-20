@@ -1,0 +1,7 @@
+-- q5.sql: Find which pets were born in the shelter (if their arrival date is the same as their birth date)
+
+
+SELECT *
+FROM pet
+WHERE birth_date = arrival_date
+;
