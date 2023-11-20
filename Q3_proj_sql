@@ -1,5 +1,6 @@
--- q3.sql: Show how many pets were adopted between 2016-01-01 and 2018-01-01
-
+/*
+q3.sql: Show how many pets were adopted between 2016-01-01 and 2018-01-01
+*/
 
 
 
