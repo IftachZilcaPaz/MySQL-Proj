@@ -1,6 +1,8 @@
+/*
+Count the number of unadopted pets Q2
+*/
 
 
--- Count the number of unadopted pets Q2
 
 
 SELECT COUNT(*) AS num_unadopted_pets
