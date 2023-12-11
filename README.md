@@ -29,6 +29,6 @@
 ![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=flat&logo=mysql&logoColor=white)
 
 
-# 📊 GitHub Humor ✨ ):
+# 📊 GitHub and More ✨ ):
 
-<img align="left" src="https://randommeme-five.vercel.app/" align="left" width="300" height="400"/>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" align="right" width="500"/>
